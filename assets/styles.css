@@ -1,0 +1,124 @@
+*{
+    /* para evitar agrandamiento de caja */
+ box-sizing: border-box;
+
+
+
+
+ /* propiedades de espaciado */
+ padding: 0;
+ border: 0;
+ margin: 0;
+ outline: none;
+ /* propiedades de tipografia */
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 1rem;
+ font-weight: 400;
+ color: #f2f2f2;
+ list-style: none;
+
+    
+}
+
+body {
+    background-image:linear-gradient(60deg, #30BCFF, #006698);
+
+}
+
+img {
+    border-radius: 30% 0;
+    margin-bottom: 8pt;
+
+}
+
+button{
+    border-radius: 30%;
+}
+h1 , h2, h3{
+    font-size: 24pt;
+    font-weight: 800;
+
+}
+
+button{
+    background-color: transparent;
+    border-radius: 2rem;
+    border: solid 2px #f2f2f2;
+    font-weight: bold;
+    padding: .7rem 2.3rem;
+    transition: all .3s ease-out;
+
+}
+#background {
+    background-image: linear-gradient(180deg, #006698, #30BCFF);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -10;
+
+}
+
+
+button:hover{
+    background-color: #f2f2f2;
+    color: #30BCFF;
+    /* jamas colocar el border dentro del hover */
+}
+
+
+.hea {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 0;
+    background-color: #006698;
+    z-index: 1000000;
+}
+
+.head .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head .navbar .list{
+    display: flex;
+    gap: 1rem;
+}
+
+/* estilos por clase */
+.jumbotron{
+    text-align: center;
+    padding: 40pt;
+
+   
+}
+
+
+.jumbotron h1{
+    margin-bottom: 8pt;
+}
+
+.jumbotron p{
+    margin-bottom: 16pt;
+    
+}
+
+.img{
+    perspective: 1000px;
+}
+
+/* /* .ima1{
+    transform: translate(110px) ; 
+    transition: 3s; */ 
+
+/* .ima1:hover{
+    transform: rotateX(40deg);
+} */
+section{
+    padding: 12pt, 30px;
+}
+.dere{
+    text-align: right;
+}
