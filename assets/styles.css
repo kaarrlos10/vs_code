@@ -25,15 +25,34 @@ body {
 
 }
 
-img {
-    border-radius: 30% 0;
+header.head nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.head nav.navbar .list{
+    display: flex;
+    gap: 1rem;
+}
+
+
+main.main .jumbotron{
+    text-align: center;
+    padding: 40px;
+}
+
+.jumbotron h1 {
     margin-bottom: 8pt;
 
 }
 
-button{
-    border-radius: 30%;
+.jumbotron p{
+    margin-bottom: 16pt;
+
+
 }
+
 h1 , h2, h3{
     font-size: 24pt;
     font-weight: 800;
@@ -49,17 +68,6 @@ button{
     transition: all .3s ease-out;
 
 }
-#background {
-    background-image: linear-gradient(180deg, #006698, #30BCFF);
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    position: fixed;
-    z-index: -10;
-
-}
-
 
 button:hover{
     background-color: #f2f2f2;
@@ -67,58 +75,69 @@ button:hover{
     /* jamas colocar el border dentro del hover */
 }
 
-
-.hea {
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 0;
-    background-color: #006698;
-    z-index: 1000000;
+img{
+    height: 100%;
+    width: 200px;
 }
-
-.head .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.head .navbar .list{
-    display: flex;
-    gap: 1rem;
-}
-
-/* estilos por clase */
-.jumbotron{
-    text-align: center;
-    padding: 40pt;
-
-   
-}
-
-
-.jumbotron h1{
+/*im {
+    border-radius: 30% 0;
     margin-bottom: 8pt;
-}
+    height: 100%;
+    width: 200px;
 
-.jumbotron p{
-    margin-bottom: 16pt;
+}*/
+
+
+/* main.main .im{
+    height: 100%;
+    width: 200px;
     
-}
-
-.img{
-    perspective: 1000px;
-}
-
-/* /* .ima1{
-    transform: translate(110px) ; 
-    transition: 3s; */ 
-
-/* .ima1:hover{
-    transform: rotateX(40deg);
 } */
-section{
-    padding: 12pt, 30px;
-}
+
 .dere{
     text-align: right;
+}
+
+.reservaaqui{
+    padding: 20px;
+
+}
+
+.reservaaqui h2 {
+    margin: bottom 8pt; ;
+
+}
+.reservaaqui p{
+    margin-bottom: 16pt
+}
+
+.reservaaqui .r-first{
+    padding-block-end: 20px;
+
+}
+
+footer{
+    background-color: blue;
+    display: flex;
+}
+
+
+.footer{
+    display: flex;
+
+
+}
+
+footer.footer .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+footer.footer .list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
