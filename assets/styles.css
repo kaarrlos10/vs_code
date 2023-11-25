@@ -78,25 +78,40 @@ button:hover{
 img{
     height: 100%;
     width: 200px;
+    
 }
-/*im {
+
+.im {
     border-radius: 30% 0;
     margin-bottom: 8pt;
     height: 100%;
     width: 200px;
 
-}*/
+}
 
-
-/* main.main .im{
+main.main .im{
     height: 100%;
     width: 200px;
     
-} */
+} 
 
 .dere{
     text-align: right;
+
 }
+
+
+.c .c-f{
+    display: flex;
+    align-items: center;
+}
+
+.c .c-s{
+    display: flex;
+    align-items: center;
+
+}
+
 
 .reservaaqui{
     padding: 20px;
@@ -118,26 +133,43 @@ img{
 
 footer{
     background-color: blue;
+    
+}
+
+.f .navbar2{
     display: flex;
+    align-items: center;
 }
 
 
-.footer{
-    display: flex;
 
-
-}
-
-footer.footer .logo{
+.logo{
     display: flex;
     flex-direction: column;
     align-items: start;
 
 }
 
-footer.footer .list{
+.o{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    
 }
+
+
+.social{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.social img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 32px;
+    height: 32px;
+    
+
+}
+
