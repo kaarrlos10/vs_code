@@ -31,7 +31,7 @@ body {
 
 .head {
   width: 100%;
-  padding: 20px;
+  padding: 40px;
   display: flex;
 }
 
@@ -94,11 +94,7 @@ body {
   margin-bottom: 80px;
 }
 
-h1,
-h2,
-h3 {
-  font-weight: 800;
-}
+
 
 h1 {
   font-size: 32pt;
@@ -129,7 +125,103 @@ h3 {
     justify-content: center;
 }
 
+
+
+
+
 /* end carlos */
+
+/* start karlos */
+.gallery__container img{
+  height: 365px;
+  width: 350px;
+  border-radius: 50px;
+  
+}
+
+.left-pharam{
+  text-align: left;
+  padding: 40px;  
+}
+
+.pharam h2 {
+  padding-bottom: 40px;
+
+}
+
+.right-pharam{
+  text-align: right;
+  padding: 40px;
+}
+
+.images-line{
+  width: 100%;
+  gap: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+  
+}
+.images-line img{
+  border-radius: 50px;
+  height: 250px;
+  width: 340px;
+
+}
+
+
+
+
+.images-line .first-line{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.images-line .second-line{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.images-line .three-line{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.images-line .final-line{
+  display: flex;
+  
+}
+
+.pharam2 h2 {
+  padding-bottom: 40px;
+
+}
+
+.pharam2 p{
+  padding-bottom: 20px;
+}
+
+.final_btn-contact{
+  width: 240px;
+  height: 70px;
+  padding-top: 20px;
+  
+
+}
+
+.footer{
+  background-color: solid #006698;
+  display: flex;
+}
+
+
+
+/* end karlos */
 
 header.head nav.navbar {
   display: flex;
