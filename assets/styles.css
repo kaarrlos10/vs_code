@@ -19,6 +19,7 @@
 .main_btn-reserve {
   width: 240px;
   height: 70px;
+  margin-top: 30px;
 }
 
 /* Carlos */
@@ -44,7 +45,7 @@ body {
 }
 
 .btn-contact {
-  border: 2px solid white;
+  border: 2px solid #f2f2f2;
   width: 240px;
   height: 72px;
 }
@@ -99,6 +100,7 @@ body {
 h1 {
   font-size: 32pt;
   line-height: 36px;
+  padding-bottom: 20px;
 }
 
 h2 {
@@ -126,104 +128,119 @@ h3 {
 }
 
 
-
-
-
 /* end carlos */
+
 
 /* start karlos */
 .gallery__container img{
   height: 365px;
   width: 350px;
   border-radius: 50px;
-  
 }
-
 .left-pharam{
   text-align: left;
   padding: 40px;  
 }
-
 .pharam h2 {
   padding-bottom: 40px;
-
 }
-
 .right-pharam{
   text-align: right;
   padding: 40px;
 }
-
-.images-line{
+.bottom-gallery .images-line{
   width: 100%;
-  gap: 12px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 40px;
-  
+  flex-direction: column;
+  align-items: center; 
 }
-.images-line img{
+.bottom-gallery .images-line img{
   border-radius: 50px;
   height: 250px;
   width: 340px;
-
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
-
-
-
-
 .images-line .first-line{
   display: flex;
-  flex-direction: column;
-  
+  gap: 1em;
+  padding-bottom: 10px;
 }
-
-
 .images-line .second-line{
   display: flex;
-  flex-direction: column;
-  
+  gap: 1em;
+  padding-bottom: 10px;
 }
-
-.images-line .three-line{
-  display: flex;
-  flex-direction: column;
-
-}
-
 .images-line .final-line{
   display: flex;
-  
+  gap: 1em;
+  padding-bottom: 10px;
 }
-
+.bottom-text{
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
 .pharam2 h2 {
-  padding-bottom: 40px;
-
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
-
 .pharam2 p{
   padding-bottom: 20px;
 }
-
 .final_btn-contact{
+  border: 2px solid white;
   width: 240px;
-  height: 70px;
-  padding-top: 20px;
-  
-
+  height: 72px;
 }
-
-.footer{
-  background-color: solid #006698;
+footer{
+  background-color: #1c0098;
+  padding: 40px;
+}
+.final-navbar{
   display: flex;
+  align-items: center;
+  justify-content:space-between;
+  align-items: center;
+}
+.footer-list ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.f-img .img-p{
+  display: flex;
+  flex-direction: column;
+}
+.f-img .img-p img{
+  width: 80px;
+  height: 60px;
+
 }
 
+.social .social-media{
+  display: flex;
+  gap: .5em;
+  height: 30px;
+}
 
+button {
+  background-color: transparent;
+  border-radius: 2rem;
+  border: solid 2px #f2f2f2;
+  font-weight: bold;
+  padding: 0.7rem 2.3rem;
+  transition: all 0.3s ease-out;
+}
+button:hover {
+  background-color: #f2f2f2;
+  color: #30bcff;
+  /* jamas colocar el border dentro del hover */ 
+}
 
 /* end karlos */
 
-header.head nav.navbar {
+/* header.head nav.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -247,25 +264,11 @@ header.head nav.navbar .list {
   margin-bottom: 16pt;
 } */
 
-button {
-  background-color: transparent;
-  border-radius: 2rem;
-  border: solid 2px #f2f2f2;
-  font-weight: bold;
-  padding: 0.7rem 2.3rem;
-  transition: all 0.3s ease-out;
-}
 
-button:hover {
-  background-color: #f2f2f2;
-  color: #30bcff;
-  /* jamas colocar el border dentro del hover */
-}
-
-img {
+/* img {
   height: 100%;
   width: 200px;
-}
+} */
 
  /* renamed */
 /* .im {
@@ -275,7 +278,7 @@ img {
   width: 200px;
 } */
 
-main.main .im {
+/* main.main .im {
   height: 100%;
   width: 200px;
 }
@@ -307,38 +310,4 @@ main.main .im {
 
 .reservaaqui .r-first {
   padding-block-end: 20px;
-}
-
-footer {
-  background-color: blue;
-}
-
-.f .navbar2 {
-  display: flex;
-  align-items: center;
-}
-
-.logo {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
-
-.o {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.social {
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
-}
-
-.social img {
-  display: flex;
-  flex-wrap: wrap;
-  width: 32px;
-  height: 32px;
-}
+} */
